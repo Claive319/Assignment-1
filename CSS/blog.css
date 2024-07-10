@@ -210,7 +210,7 @@
 
 }
 .page3{
-    height: 1981px;
+    height: 900px;
     border-radius: 16px;
     /* padding: 30px; */
     
@@ -254,5 +254,137 @@
     padding-top: 30px;
     margin: 32px;
 }
+.target-container{
+    height: 600px;
+    background-color: aliceblue;
+}
+.text-and-symbols{
+    width: 60%;
+}
+.container-new{
+    
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+.heading4{
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.details{
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    /* width: 60%; */
+    align-items: center;
+    justify-content: space-around;
+}
+.html{
+    padding: 40px;
+    height: 299px;
+    width: 364px;
+    margin: 10px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.Css{
+    padding: 40px;
+    height: 299px;
+    width: 364px;
+    margin: 10px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.javascript{
+    padding: 40px;
+    height: 299px;
+    width: 364px;
+    border-radius: 16px;
+    margin: 10px;
+
+    background-color: rgba(255, 223, 0, 0.05);
+
+}
+.HTML{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.html-para{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.html > a {
+    margin: 24px 0px;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+    
+}
+.CSS{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Css > a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.javascript > a{
+    text-decoration: none;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
