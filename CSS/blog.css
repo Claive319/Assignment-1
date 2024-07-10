@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.azeret-mono-font {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+.hero{
+    background-image: url('../assets/Hero-bg.png');
+    height: 727px;
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: center; */
+    flex-direction: column;
+    /* flex-direction: column; */
+
+    
+}
+.hero .gorup{
+    padding-top: 30px;
+
+
+
+}
+.title{
+    padding-top: 30px;
+    
+   
+}
