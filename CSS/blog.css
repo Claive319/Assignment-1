@@ -442,14 +442,15 @@
     
 }
 .all-rights{
+    margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: space-between;
     
     /* ?align-items: end; */
     
     /* height: 200px; */
     /* align-items: end; */
 }
-.nav a{
-    justify-content: end;
-}
+
 
