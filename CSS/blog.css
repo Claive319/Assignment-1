@@ -431,6 +431,8 @@
 }
 .input{
     display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
 }
 .input-field{
     
