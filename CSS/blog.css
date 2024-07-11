@@ -72,7 +72,7 @@
     border-radius: 8px;
     
 
-    background: rgb(13, 19, 33);
+    background-color: rgb(13, 19, 33);
 }
 .page-2{
     height: 1200px;
@@ -417,7 +417,7 @@
 
 }
 
-.footer-container{
+#footer-container{
     padding: 64px 48px;
     margin: 600px 150px 180px;
     display: flex;
@@ -452,5 +452,23 @@
     /* height: 200px; */
     /* align-items: end; */
 }
+nav{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    height: 200px;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover{
+    background-color: rgb(13, 19, 33);
+    transition: .6s;
+    transform: scale(1.2);
+    border-radius: 6px;
+    box-shadow: 10px 20px 20px grey;
 
+    
+} 
 
